@@ -2,54 +2,121 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous">
+    <title>Lab08-5610450268</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="startbootstrap-landing/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-      crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="startbootstrap-landing/css/landing-page.css" rel="stylesheet">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"></script>
+    <!-- Custom Fonts -->
+    <link href="startbootstrap-landing/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <style>
+      .text-header{
+        text-align: center;
+      }
+      .profile{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+      }
+      .page{
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
+      .intro-profile {
+          padding-top: 50px;
+          padding-bottom: 50px;
+          text-align: center;
+          color: #f8f8f8;
+          background: url(startbootstrap-landing/img/intro-bg.jpg) no-repeat center center;
+          background-size: cover;
+      }
+    </style>
   </head>
+
   <body>
-    <div class="container">
-      <h1>Hello homepage</h1>
-      <h2>worlddd webtech</h2>
-      <div class="row">
-        <div class="col-md-1 col-xs-6">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-      </div>
-      <div class="row">
-        <div class="col-md-8">.col-md-8</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-6">.col-md-6</div>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">LAB08-GIT exercise</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#lab">Link Lab</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <a name="about"></a>
+    <div class="intro-profile">
+      <div class="intro-message">
+        <h1 class="text-header">Peeraya Sintuwarakul</h1>
+        <h3 class="text-header">5610450268</h3>
+        <div class="container profile">
+          <p>Nickname : Pink</p>
+          <p>Birthday : 9/11/1995</p>
+          <p>E-mail : peeraya.si@ku.th</p>
+          <p>Education : Kasetsart Unversity</p>
+        </div>
       </div>
     </div>
+    <div class="container page">
+      <p>Link Lab :</p>
+      <a name="lab"></a>
+      <a href="lab01/index.html">Lab01-Basic-HTML</a></br>
+      <a href="lab02/index.html">Lab02-CSS</a></br>
+      <a href="lab03/index.html">Lab03-JavaScript</a></br>
+      <a href="lab04/index.html">Lab04-jQuery & AJAX</a></br>
+      <a href="lab05/index.html">Lab05-Basic PHP</a></br>
+      <a href="lab06/lab06-1.php">Lab06-1-Database connection</a></br>
+      <a href="lab06/lab06-2.php">Lab06-2-Database queries</a></br>
+      <a href="lab07/lab07.php">Lab07-PHP and Reports</a></br>
+    </div>
+
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#lab">Link Lab</a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
